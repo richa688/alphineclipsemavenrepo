@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuit">
+<listeners>
+<listener class-name="rinku.listnereg.MyListener"></listener>
+</listeners>
+<test name="MyTest">
+<classes>
+<class name="rinku.listnereg.Testcaseclass"/>
+<class name="rinku.listnereg.Testcaseclass2"/>
+</classes>
+
+</test>
+
+</suite>
